@@ -9,6 +9,7 @@ namespace Test2_Melvin_Reka
     {
         static void Main(string[] args)
         {
+            Console.ReadKey();
         }
     }
 }
