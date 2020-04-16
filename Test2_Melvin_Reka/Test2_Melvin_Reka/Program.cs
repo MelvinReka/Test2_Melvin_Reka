@@ -20,6 +20,10 @@ namespace Test2_Melvin_Reka
                 Console.Write("*");
             }
             Console.WriteLine(titel);
+            for (int i = 0; i < Console.WindowWidth; i++)
+            {
+                Console.Write("*");
+            }
         }
     }
 }
