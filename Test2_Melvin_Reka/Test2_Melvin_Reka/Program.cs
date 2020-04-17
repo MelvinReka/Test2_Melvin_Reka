@@ -10,6 +10,7 @@ namespace Test2_Melvin_Reka
         static void Main(string[] args)
         {
             Titel("Dies ist ein Test");
+            Menu();
             Console.ReadKey();
         }
 
@@ -24,6 +25,15 @@ namespace Test2_Melvin_Reka
             {
                 Console.Write("*");
             }
+        }
+        /// <summary>
+        /// Ausgabe eines Auswahmenüs
+        /// </summary>
+        static void Menu()
+        {
+            Console.WriteLine("1) 10->2");
+            Console.WriteLine("2) 10-> Hex");
+            Console.WriteLine("\n Bitte einen Menüpunkt auswählen");
         }
     }
 }
